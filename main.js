@@ -89,4 +89,13 @@ function showOrHideResults() {
     calcContainer.classList.toggle("hide");
     resultContainer.classList.toggle("hide");
 }
+/*init */
 
+createTable(data)
+
+/*Eventos*/
+[heightInput, weightInput].forEach((el) => {
+    el.addEventListener("input", (e) => {
+        const updatevalue = updatevalue;
+    });
+});
