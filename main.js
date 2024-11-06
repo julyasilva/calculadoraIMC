@@ -85,4 +85,8 @@ function calcImc(height, weight) {
     return imc
 }
 
+function showOrHideResults() {
+    calcContainer.classList.toggle("hide");
+    resultContainer.classList.toggle("hide");
+}
 
