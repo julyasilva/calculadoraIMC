@@ -76,4 +76,13 @@ function createTable(data) {
     });
   }
 
+function validDigits(text) {
+    return text.replace(/[⁰0-9,]/g, "")
+}
+
+function calcImc(height, weight) {
+    const imc = (weight /(height * height)).toFixed(1);
+    return imc
+}
+
 
